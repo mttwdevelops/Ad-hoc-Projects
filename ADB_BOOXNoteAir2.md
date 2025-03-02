@@ -38,5 +38,21 @@ You should notice at least one device connected now, if this is not the case, re
 ```
 adb shell pm list packages
 adb shell pm list package | findstr 'google'
-adb shell pm uninstall -k -user 0 process
+adb shell pm uninstall -k -user 0 packagename
 ```
+
+### Packages I found that can be disabled for e-readers (for the BOOX Note Air 2 Plus a/o March 2023):
+
+com.onyx.mail
+com.google.android.gms
+com.google.android.tts
+com.google.android.ims
+com.google.android.gsf
+com.android.providers.blockedhumber
+com.android.providers.hotspot2.osulogin
+com.onyx.calculator
+com.android.smspush
+com.android.gms.location.history
+com.google.android.syncadamters.calendar
+com.google.android.syncadamters.contacts
+com.android.calllogbackup
