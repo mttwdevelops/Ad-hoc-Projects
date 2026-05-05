@@ -1,12 +1,14 @@
-#### Last update was March 30, 2026. Generative AI is constantly evolving, so everything here may be completely wrong/irrelevant.
+#### Last update was May 4th, 2026. Generative AI is constantly evolving, so everything here may be completely wrong/irrelevant.
 
 ## TLDR:
 This write-up is about my personal experience learning (with sources) and using generative AI in IT and in my personal life.
 
-AI also performs better when you tell it to provide its' step-by-step "thought" process, which actually helps it "think out loud."
+AI performs better when you tell it to provide its' step-by-step "thought" process, which actually helps it "think out loud."
+
+Keep individual prompts short and let context build over time per chat instance, as current models struggle with monolithic inquiries.
 
 ## Context:
-On the one hand, my academic foundation/thinking process was not impacted/influenced by AI, which makes me feel like one of the refugees on the last choppers outta 'Nam. On the other hand, generative AI exploded in commercial/non-research/industry usage mere months after I graduated from college, which means I graduated into a now over three-year hellscape job-market. 
+On the one hand, my academic foundation/thinking process was not impacted/influenced by AI, which makes me feel like one of the refugees on the last choppers outta 'Nam. On the other hand, generative AI exploded in commercial/non-research/industry usage mere months after I graduated from college, it also didn't help that I graduated into a now over three-year hellscape job-market. 
 
 I was lucky to find a job short into my search, but didn't really think about nor use AI. I also admittedly didn't really take it seriously - insert headline of Google Bard suggesting that people kill themselves here. More companies and industries are now adopting the cherished motto of "doing more with less," often asking employees to "leverage" AI into their workflows in every way they can. My curiosity has peaked while I feel my professional back is now against a wall against those who have adopted it, so I must now leverage it too. This write-up is about my personal experience learning (with sources) and using generative AI in both my professionl and personal life.
 
@@ -18,5 +20,10 @@ AI can quickly pull resources from the depths of the internet together. The cont
 ** AI also performs better when you tell it to provide its' step-by-step "thought" process, which actually helps it "think out loud."
 **
 
+** Keep individual prompts in a chat instance short. AI platforms often struggle when having to draft long single-prompt responses. This may have something to do with models having difficulty digesting so much context/too much to ask in a single prompt. 
+**
+
 ## How I integrate AI into anything (work and personal research):
 I created a private agent with my companies' HR handbook and other internal documentation to see how it'd do against different administrative scenarios. I checked this information from the documentation themselves, just to be sure that the model was getting the correct answers. The agent was created with Gemini 2.5 Pro, and was given the default instructions "Provide any responses to queries in bulleted lists of 5. Provide step-by-step thought process for each item of the list."
+
+I also had to pick up Power Platform (SharePoint, Power Apps, I already knew Power Automate decently) for my job, and tasked AI to help with a lot of the immediate development that I need to handle. Since there's so much content and documentation online, Gemini's models are able to quickly solve shorter prompts as I quickly build new features into applicatoins and webpages. Since I've had coding and some design experience before I was also able to tailor/catch my prompts when AI generates code that has bugs. This happened with larger/harder problems that included more steps to solve, and only very occasionally hiccuped during smaller tasks. There's also - again - the information well problem, these models only perform as well (among many other factors) as the information they have access too. There were a few times when the output was wrong due to a lack of particular information or sources conflicted, which caused the model to return a hybrid of instructions that blended from both sources - not good. When I need to make site architectural decisions, I use a model to quickly gather information, yet still use my experience to judge what end decision I make. I figure this is what will be most *decent* peoples' AI usage, which allows prompters to focus on higher-level decision making than sifting through Microsoft documentation to figure out how to modify the DatePicker control in PowerApps.
